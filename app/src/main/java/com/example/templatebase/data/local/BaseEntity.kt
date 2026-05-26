@@ -1,9 +1,9 @@
-package com.example.templatebase.data
+package com.example.templatebase.data.local
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "base")
+@Entity(tableName = "base_db")
 data class BaseEntity(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
